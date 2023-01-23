@@ -319,7 +319,7 @@ else {
 
 * There should be no blank lines after an opening brace or before a closing brace.
 
-* Closing parentheses should not appear on a line by themselves.
+* Closing parentheses should appear on a line by themselves.
 
 **Preferred**:
 ```swift
