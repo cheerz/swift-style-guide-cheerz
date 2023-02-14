@@ -1,4 +1,4 @@
-# The Official raywenderlich.com Swift Style Guide.
+# The Official raywenderlich.com Swift Style Guide – for Cheerz.
 ### Updated for Swift 5
 
 This style guide is different from others you may see, because the focus is centered on readability for print and the web. We created this style guide to keep the code in our books, tutorials, and starter kits nice and consistent — even though we have many different authors working on the books.
@@ -16,6 +16,7 @@ Our overarching goals are clarity, consistency and brevity, in that order.
   * [Generics](#generics)
   * [Class Prefixes](#class-prefixes)
   * [Language](#language)
+  * [Assets](#assets)
 * [Code Organization](#code-organization)
   * [Protocol Conformance](#protocol-conformance)
   * [Unused Code](#unused-code)
@@ -186,6 +187,14 @@ let color = "red"
 **Not Preferred**:
 ```swift
 let colour = "red"
+```
+
+### Assets
+
+Assets naming :
+
+```(img|icon)_name(_bicolor)?_size
+example : img_crayon_bicolor_72
 ```
 
 ## Code Organization
