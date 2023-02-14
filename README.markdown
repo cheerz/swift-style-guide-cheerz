@@ -193,7 +193,8 @@ let colour = "red"
 
 Assets naming :
 
-```(img|icon)_name(_bicolor)?_size
+```swift
+(img|icon)_name(_bicolor)?_size
 example : img_crayon_bicolor_72
 ```
 
